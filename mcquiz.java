@@ -9,11 +9,9 @@ import javax.swing.JRadioButton;
 
 public class mcquiz {
 
-
     // This is the constructor. Whenever a new instance of mcquiz is created, this code is run below.
 
     public mcquiz() throws FileNotFoundException {
-        //String[][] input=new String[10][5];
         String[] questions = new String[10];
         String line;
         Scanner fileScan;
